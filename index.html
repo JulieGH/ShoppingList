@@ -3,8 +3,8 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Shopping List</title>
-		<link rel="stylesheet" type="text/css" href="shoppingStyle.css">
-		<link rel="stylesheet" type="text/css" href="<link href='https://fonts.googleapis.com/css?family=Happy+Monkey' rel='stylesheet' type='text/css'>">
+		<link rel="stylesheet" type="text/css" href="css/shoppingStyle.css">
+		<link rel="stylesheet" type="text/css" href="<link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>">
 
 	</head>
 	<body>
@@ -15,13 +15,13 @@
 
 <div id="inputArea">
 
-	<form>I need to buy <input type="text" name="shopItem"></form>
+	<p>I need to buy <input type="text" id="shopItem" value="enter item here"> <button>add to list</button></p>
 		
 </div>
 
 
 <ul id= "shopList">
-	<li>eggs</li>
+	<li><input type="checkbox">eggs</li>
 	<li>milk</li>
 	<li>bread</li>
 	<li>juice</li>
@@ -39,7 +39,8 @@
 
 
 
-
+<script src="https://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="js/jquery.js"></script>	
 
 
 

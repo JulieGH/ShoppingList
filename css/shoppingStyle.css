@@ -1,0 +1,81 @@
+body {
+	font-family: 'Courgette', tahoma;
+	background-image: url("../images/shopBag.jpg");
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+h1 {
+	
+	color: red;
+	text-align: center;
+	text-decoration: underline;
+	font-size: 50px;
+
+}
+
+p{
+	text-align: center;
+	
+}
+
+#inputArea{
+	font-size: 30px;
+	border: 1px solid blue;
+}
+
+#shopList {
+	max-width: 75%;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 30px;
+	border: 1px solid blue;
+}
+
+li {
+	list-style-type: none;
+}
+
+input[type=text] {
+	border: none;
+	border-bottom: 3px solid red;
+	width: 150px;
+
+}
+
+input[value]{
+	font-size: 20px;
+	color: darkgray;
+
+}
+
+button {
+	font-size: 20px;
+	background-color: yellow;
+	border-radius: 12px;
+	border-color: black;
+}
+
+checkbox:checked {
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
